@@ -4,13 +4,11 @@
 */
 .sh_member_detail_header {
 	overflow: hidden;
-	height: 46.5rem;
 	border-bottom: 1px solid #A59AF6;
 }
 .sh_search_button {
 	float: right;
 }
-
 .sh_main_text {
 	font-size: 2rem;
 	color: #776BCE;
@@ -48,7 +46,7 @@
 .sh_member_detail_inf2{
 	font-size: 1rem;
 	font-weight: bold;
-	margin-left: 35rem;
+	margin-left: 33rem;
 }
 .sh_member_detail_inf2 input{
 	border: 1px solid #A59AF6;
@@ -115,10 +113,11 @@
 .sh_member_detail_ex ul:nth-child(odd){
 	background: #776bce16;
 }
-#sh_board_shadow{
+#sh_board_shadow {
 	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
+	height:50rem;
 	padding: 1rem;
-    box-sizing: content-box;
-    width: 58rem;
-    border: 1px solid #776bce;
+	box-sizing: content-box;
+	width: 55rem;
+	border: 1px solid #776bce;
 }

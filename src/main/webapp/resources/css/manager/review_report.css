@@ -15,7 +15,7 @@
 	text-align: center;
 }
 .sh_review_report_main ul {
-	margin-left: 48rem;
+	margin-left: 45rem;
 }
 .sh_review_report_main li{
 	margin-bottom: 0.7rem;
@@ -80,9 +80,8 @@
 }
 #sh_board_shadow{
 	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
-
 	padding: 1rem;
     box-sizing: content-box;
-    width: 58rem;
+    width: 55rem;
     border: 1px solid #776bce;
 }

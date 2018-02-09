@@ -34,13 +34,13 @@
 							</select></li>
 							<li><select id="sh_board_insert_1">
 									<option>중분류</option>
-									<optgroup class="member" style="display: none;">
+									<optgroup label="--------------------------------------" class="member" style="display: none;">
 										<option>회원가입</option>
 										<option>로그인/비밀번호</option>
 										<option>성인인증</option>
 										<option>회원탈퇴</option>
 									</optgroup>
-									<optgroup class="pay" style="display: none;">
+									<optgroup label="--------------------------------------" class="pay" style="display: none;">
 										<option>적립금/포인트</option>
 										<option>리디캐시</option>
 										<option>쿠폰</option>
@@ -48,7 +48,7 @@
 										<option>휴대폰결제</option>
 										<option>현금 결제</option>
 									</optgroup>
-									<optgroup class="update" style="display: none;">
+									<optgroup label="--------------------------------------" class="update" style="display: none;">
 										<option>인터넷오류</option>
 										<option>성인인증오류</option>
 										<option>화면 오류</option>
@@ -80,17 +80,15 @@
 	<script type="text/javascript" src="${root}/script/manager/total.js"></script>
 	<script type="text/javascript">
 		$(function() {
-
-			$("#sh_board_insert_change").change(
-					function() {
+			$("#sh_board_insert_change").change(function() {
 						var value = $(this).val();
 						var me = $("#sh_board_insert_1").find("." + value);
 						me.css("display", "block");
-						$("#sh_board_insert_1 >optgroup").not(me).css(
-								"display", "none");A
-						$("#sh_board_update_1 >option").prop("selected",true);
-					});
-		})
+						$("#sh_board_insert_1 >optgroup").not(me).css("display","none");
+						$("#sh_board_insert_1 >option").prop("selected",true);
+				}); 
+			});
+
 	</script>
 </body>
 </html>

@@ -16,8 +16,10 @@
 </head>
 <body>
 	<div id="sh_review_report">
+	
 		<div class="sh_review_report_header">
 			<div class="sh_main_text">신고 관리 페이지</div>
+			  <div id="sh_board_shadow">
 			<div class="sh_review_report_main">
 				<ul>
 					<li><span>해당리뷰 번호 :</span>102번</li>
@@ -113,7 +115,7 @@
 
 			</div>
 		</div>
-	</div>
+
 	<div class="sh_review_report_footer">
 		<nav class="bf-pagination">
 			<ul class="bf-animated-btn">
@@ -128,8 +130,9 @@
 				<li class="last"><a href="#0"><span></span></a></li>
 			</ul>
 		</nav>
+		</div>
 	</div>
-
+	</div>
 	<script type="text/javascript" src="${root}/script/basic/jquery.js"></script>
 	<script type="text/javascript" src="${root }/script/basic/commons.js"></script>
 	<script type="text/javascript" src="${root}/script/basic/jquery-ui.js"></script>

@@ -1,7 +1,7 @@
 
 
 /*달력*/
-$(function() {
+
 	$("#sh_date_start").datepicker({
 		dateFormat : 'yy-mm-dd'
 	});
@@ -108,6 +108,12 @@ $(function() {
 
 		$("#sh_date_start").val(beforeDate);
 	}
+	
+	$("#sh_date_start").datepicker({
+		dateFormat : 'yy-mm-dd'
+	});
+	$("#sh_date_end").datepicker({
+		dateFormat : 'yy-mm-dd'
+	});
 
 
-});

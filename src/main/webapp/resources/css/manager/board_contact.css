@@ -23,12 +23,10 @@
 	margin: auto;
 	border: 0px solid black;
 	width: 57.5rem;
-	height: 27rem;
-	w
+	
 }
-
 .sh_board_contact_search {
-	border-top: 1px solid #776BCE;
+
 	border-bottom: 1px solid #776BCE;
 	width: 31rem;
 	height: 7rem;
@@ -62,7 +60,6 @@
 
 /* 첫번째 선택부분 .sh_board_contact_date  */
 .sh_board_contact_date {
-	border-top: 1px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 26.4rem;
 	height: 7rem;
@@ -169,4 +166,11 @@
 .sh_board_contact_list li:nth-child(9){
 	margin-top: 1.2rem;	
 	width: 5.4rem;
+}
+#sh_board_shadow{
+	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
+	 padding: 1rem;
+    box-sizing: content-box;
+    width: 58rem;
+    border: 1px solid #776bce;
 }

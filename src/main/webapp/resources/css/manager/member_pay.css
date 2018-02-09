@@ -28,7 +28,7 @@
 }
 
 .sh_member_pay_search {
-	border-top: 1px solid #776BCE;
+	border-top: 0px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 28.125rem;
 	height: 7rem;
@@ -69,11 +69,12 @@
 }
 .sh_member_pay_search ul input{
 	line-height:1.6rem;
+	padding-left: 0.5rem;
 }
 
 /* 첫번째 선택부분 .sh_member_pay_date  */
 .sh_member_pay_date {
-	border-top: 1px solid #776BCE;
+	border-top: 0px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 29.25rem;
 	height: 7rem;
@@ -186,4 +187,18 @@
 	margin-left: 1.8rem;
 	margin-right: 1rem;
 }
+#sh_board_shadow{
+	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
 
+	 padding: 1rem;
+    box-sizing: content-box;
+    width: 58rem;
+    border: 1px solid #776bce;
+}
+#sh_board_shadow{
+	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
+	padding: 1rem;
+    box-sizing: content-box;
+    width: 58rem;
+    border: 1px solid #776bce;
+}

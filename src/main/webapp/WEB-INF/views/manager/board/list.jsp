@@ -7,22 +7,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <c:set var="root" value="${pageContext.request.contextPath}" />
 <link rel="stylesheet" href="${root}/css/basic/reset.css">
-<link rel="stylesheet" href="${root }/css/manager/member.css">
 <link rel="stylesheet" type="text/css" href="${root}/css/basic/commons.css">
+<link rel="stylesheet" href="${root }/css/manager/board_list.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="${root }/css/basic/jquery-ui.css">
 <link rel="stylesheet" href="${root }/css/basic/jquery-ui.theme.css">
 
-<title>회원관리 페이지</title>
+<title>자주 묻는 질문 게시판</title>
 </head>
 <body>
-	<div id="sh_member">
-		<div class="sh_main_text">회원관리 페이지</div>
+	<div id="sh_board_list">
+		<div class="sh_main_text">자주 묻는 질문 게시판</div>
 		<div id="sh_board_shadow">
-			<div class="sh_member_header">
+			<div class="sh_board_list_header">
 
-				<div class="sh_member_main">
 
-					<div class="sh_member_search">
+				<div class="sh_board_list_main">
+
+					<div class="sh_board_list_search">
 						<ul>
 							<li><select style="height: 1.6rem; size: 2rem;">
 									<option>전체</option>
@@ -34,7 +37,7 @@
 						</ul>
 
 					</div>
-					<div class="sh_member_date">
+					<div class="sh_board_list_date">
 						<ul>
 							<li><input type="text" id="sh_date_start" placeholder="시작 날짜" /></li>
 							<li>~<input type="text" id="sh_date_end" placeholder="종료 날짜" /></li>
@@ -46,7 +49,7 @@
 					</div>
 				</div>
 
-				<div class="sh_member_select">
+				<div class="sh_board_list_select">
 					<select>
 						<option>등록일 순</option>
 						<option>오래된 순</option>
@@ -54,60 +57,54 @@
 				</div>
 
 			</div>
-			<div class="sh_member_content">
-				<div class="sh_member_title">
+			<div class="sh_board_list_content">
+				<div class="sh_board_list_title">
 					<ul>
-						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="전체선택" id="allCheck" /> <span class="all-mark"></span><span class="checkbox-label"></span>
-						</label></li>
-						<li>순번</li>
-						<li>아이디</li>
-						<li>이름</li>
-						<li>가입일</li>
-						<li>최종방문일</li>
-						<li>방문 수</li>
-						<li>게시글 수</li>
-						<li>상세보기</li>
+						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="전체선택" id="allCheck" /> <span class="all-mark"></span><span class="checkbox-label"></span></label></li>
+						<li>No</li>
+						<li>제목</li>
+						<li>유형</li>
+						<li>등록일자</li>
+						<li>상태</li>
 					</ul>
 				</div>
-				<div class="sh_member_list">
+				<div class="sh_board_list_list">
 					<!-- for문으로 체크박스랑 등등 정보 돌려야함 . 임시적으로 두개 해놈 -->
+					<ul>
+						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="목록" class="sh_check" /> <span class="all-mark"></span><span class="checkbox-label"></span></label></li>
+						<li>1</li>
+						<li>아이디또는 로그인이 안되시는경우!</li>
+						<!-- 제목 -->
+						<li>로그인/아이디</li>
+						<li>17/12/20</li>
+						<li><a class="bf-button bf-animated-btn" href="${root}/manager/boardUpdate.do">수정</a></li>
+						<li><a class="bf-button bf-animated-btn" href="${root}/manager/boardDelete.do">삭제</a></li>
+					</ul>
+					<ul>
+						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="목록" class="sh_check" /> <span class="all-mark"></span><span class="checkbox-label"></span></label></li>
+						<li>2</li>
+						<li>어떻게 보나요</li>
+						<!-- 제목 -->
+						<li>기타</li>
+						<li>13/12/21</li>
+						<li><a class="bf-button bf-animated-btn" href="${root}/manager/boardUpdate.do">수정</a></li>
+						<li><a class="bf-button bf-animated-btn" href="${root}/manager/boardDelete.do">삭제</a></li>
+					</ul>
+					<ul>
+						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="목록" class="sh_check" /> <span class="all-mark"></span><span class="checkbox-label"></span></label></li>
+						<li>3</li>
+						<li>책이 핸드폰에서 안열려요!!</li>
+						<!-- 제목 -->
+						<li>오류</li>
+						<li>15/12/21</li>
+						<li><a class="bf-button bf-animated-btn" href="${root}/manager/boardUpdate.do">수정</a></li>
+						<li><a class="bf-button bf-animated-btn" href="${root}/manager/boardDelete.do">삭제</a></li>
+					</ul>
 
-				</div>
-				<div class="sh_member_list">
-					<!-- for문으로 체크박스랑 등등 정보 돌려야함 . 임시적으로 두개 해놈 -->
-					<!-- 첫번째 예제 -->
-					<ul>
-						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="목록" class="sh_check" /> <span class="all-mark"></span><span class="checkbox-label"></span></label></li>
-						<li>1</li>
-						<li>jeonsh1220</li>
-						<!-- 회원정보상세페이지 넘어가기 -->
-						<li>전상헌</li>
-						<li><span>18/01/01</span></li>
-						<li>18/01/02</li>
-						<li>1</li>
-						<li>10</li>
-						<!-- 게시글 목록 넘어가기 -->
-						<li><a href="${root}/manager/memberRegister.do" class="bf-button bf-animated-btn">상세보기</a></li>
-					</ul>
-					<!-- 두번째 예제 -->
-					<ul>
-						<li><label class="bf-custom-checkbox"> <input type="checkbox" title="목록" class="sh_check" /> <span class="all-mark"></span><span class="checkbox-label"></span></label></li>
-						<li>2</li>
-						<li>coco0525</li>
-						<li>코코</li>
-						<!-- 회원정보상세페이지 넘어가기 -->
-						<li><span>16/05/25</span></li>
-						<li>18/01/02</li>
-						<li>2</li>
-						<li>20</li>
-						<!-- 게시글 목록 넘어가기 -->
-						<li><a href="${root}/manager/memberRegister.do" class="bf-button bf-animated-btn">상세보기</a></li>
-					</ul>
+
 				</div>
 			</div>
-
-
-			<div class="sh_member_footer">
+			<div class="sh_board_list_footer">
 				<nav class="bf-pagination">
 					<ul class="bf-animated-btn">
 						<li class="first"><a href="#0"><span></span></a></li>
@@ -125,8 +122,9 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="${root}/script/basic/jquery.js"></script>
-	<script type="text/javascript" src="${root}/script/basic/jquery-ui.js"></script>
 	<script type="text/javascript" src="${root }/script/basic/commons.js"></script>
+	<script type="text/javascript" src="${root}/script/basic/jquery-ui.js"></script>
 	<script type="text/javascript" src="${root}/script/manager/total.js"></script>
+	<script type="text/javascript" src="${root}/script/manager/board.js"></script>
 </body>
 </html>

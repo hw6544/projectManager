@@ -25,9 +25,11 @@
 							<li><p>적립금</p> <span>10000 point</span></li>
 							<li><p>쿠폰</p> <span>3 장</span></li>
 						</ul>
-
 					</div>
-				</div>
+					<div class="sh_member_detail_inf2">
+						<span>적립금부여</span> <input type="text">
+						<button type="button" style="height: 2.2rem;" class="bf-button bf-white-btn sh_point">적립</button>
+					</div>
 				</div>
 
 				<div class="sh_member_detail_content">
@@ -193,29 +195,29 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="sh_member_detail_footer">
-				<nav class="bf-pagination">
-					<ul class="bf-animated-btn">
-						<li class="first"><a href="#0"><span></span></a></li>
-						<li class="prev"><a href="#0"><span></span></a></li>
-						<li><a href="#0">1</a></li>
-						<li><a href="#0">2</a></li>
-						<li><a class="active" href="#0">3</a></li>
-						<li><a href="#0">4</a></li>
-						<li><a href="#0">5</a></li>
-						<li class="next"><a href="#0"><span></span></a></li>
-						<li class="last"><a href="#0"><span></span></a></li>
-					</ul>
-				</nav>
+
+				<div class="sh_member_detail_footer">
+					<nav class="bf-pagination">
+						<ul class="bf-animated-btn">
+							<li class="first"><a href="#0"><span></span></a></li>
+							<li class="prev"><a href="#0"><span></span></a></li>
+							<li><a href="#0">1</a></li>
+							<li><a href="#0">2</a></li>
+							<li><a class="active" href="#0">3</a></li>
+							<li><a href="#0">4</a></li>
+							<li><a href="#0">5</a></li>
+							<li class="next"><a href="#0"><span></span></a></li>
+							<li class="last"><a href="#0"><span></span></a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
-		</div>
-	
-	<script type="text/javascript" src="${root }/script/basic/commons.js"></script>
-	<script type="text/javascript" src="${root}/script/basic/jquery.js"></script>
-	<script type="text/javascript" src="${root}/script/basic/jquery-ui.js"></script>
-	<script type="text/javascript" src="${root}/script/manager/total.js"></script>
-	<script type="text/javascript" src="${root}/script/manager/member.js"></script>
+
+		<script type="text/javascript" src="${root }/script/basic/commons.js"></script>
+		<script type="text/javascript" src="${root}/script/basic/jquery.js"></script>
+		<script type="text/javascript" src="${root}/script/basic/jquery-ui.js"></script>
+		<script type="text/javascript" src="${root}/script/manager/total.js"></script>
+		<script type="text/javascript" src="${root}/script/manager/member.js"></script>
 </body>
 </html>

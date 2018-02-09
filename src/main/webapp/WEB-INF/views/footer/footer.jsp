@@ -8,7 +8,7 @@
 <c:set var="root" value="${pageContext.request.contextPath}" scope="session" />
 <link href="${root}/resources/css/footer/footer.css" type="text/css" rel="stylesheet">
 <link href="${root}/resources/css/footer/order.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="${root}/resources/script/basic/jquery.js"></script>
+<%-- <script type="text/javascript" src="${root}/resources/script/basic/jquery.js"></script> --%>
 <script type="text/javascript">
 
 	$(function() {

@@ -23,11 +23,10 @@
 	margin: auto;
 	border: 0px solid black;
 	width: 57.5rem;
-	height: 27rem;
 }
 
 .sh_review_search {
-	border-top: 1px solid #776BCE;
+	border-top: 0px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 28.125rem;
 	height: 7rem;
@@ -62,7 +61,7 @@
 }
 /* 첫번째 선택부분 .sh_review_date  */
 .sh_review_date {
-	border-top: 1px solid #776BCE;
+	border-top: 0px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 29.25rem;
 	height: 7rem;
@@ -178,4 +177,19 @@
 }
 #sh_review_hidden{
 	background-color: #c6befa;
+	padding-top: 0.5rem;
+	height: 4rem;
+	font-size: 0.8rem;
+	line-height: 1rem;
+}
+#sh_board_shadow{
+	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
+
+	 padding: 1rem;
+    box-sizing: content-box;
+    width: 58rem;
+    border: 1px solid #776bce;
+}
+.sh_review_secret,.sh_review_open,.sh_review_delete{
+	width: 4rem;
 }

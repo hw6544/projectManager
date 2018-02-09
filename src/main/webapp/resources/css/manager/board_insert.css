@@ -1,0 +1,38 @@
+#sh_board_insert{
+	margin: auto;	
+	border: 0px solid black;
+	width: 57.5rem; height:40rem;
+}
+.sh_main_text{
+	font-size: 2rem;
+	color :#776BCE;
+	padding: 2rem;
+	background: white;
+	text-align: center;
+}
+.sh_board_insert_search li{
+	margin: auto;	
+	float: left;
+	border: 0px solid #776BCE; 
+	border-radius :3px;
+	margin : 2rem 0rem 1rem 0rem;
+	height: 1.7rem;
+	text-align: center;
+}
+.sh_board_insert_search li:nth-child(1),.sh_board_insert_search li:nth-child(2){
+		border: 1px solid #776BCE; 
+}
+.sh_board_insert_search li:nth-last-child(2) {
+	margin-left: 0rem; 
+}
+.sh_board_insert_search select{
+	border: 0px;
+	font-size: 1rem;
+}
+
+.sh_board_insert_content button, .sh_board_insert_content input{
+	float: right;
+}
+.sh_board_insert_content input{
+	margin-right: 2rem;
+}

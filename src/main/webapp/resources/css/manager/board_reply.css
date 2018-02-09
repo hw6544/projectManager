@@ -1,0 +1,75 @@
+/*
+헤더부분
+*/
+.sh_board_reply_header {
+	overflow: hidden;
+}
+.sh_search_button {
+	float: right;
+}
+.sh_main_text {
+	font-size: 2rem;
+	color: #776BCE;
+	background: white;
+	padding: 2rem;
+	text-align: center;
+}
+
+/* 첫번째 선택부분 .sh_board_reply_search  */
+#sh_board_reply {
+	margin: auto;
+	border: 0px solid black;
+	width: 57.5rem;
+	height: 27rem;
+	text-align: center;
+	line-height: 3rem;
+}
+.sh_board_reply_title ul{
+	height: 50rem;
+	border-top: 1px solid #887AEA;
+	border-bottom: 1px solid #887AEA;
+}
+.sh_board_reply_title li{
+	width :9rem;
+	height : 3rem;
+	border-bottom: 1px solid #887AEA;
+	border-right: 1px solid #887AEA;
+	float: left;
+}
+.sh_board_reply_title li input{
+	border:1px solid #A9A9A9;
+	height: 2rem;
+	font-size: 1rem;
+	text-align: center;
+}
+.sh_board_reply_title li textarea{
+	margin-top: 0.8rem;
+}
+.sh_board_reply_title li select{
+	width: 18rem;
+	height: 2rem;
+	 text-align-last: center; 
+}
+.sh_board_reply_title li option {
+  text-align: right;
+ 
+}
+.sh_board_reply_title li:nth-child(even) {
+	width: 19.68rem;
+
+}
+.sh_board_reply_title li:nth-child(2),.sh_board_reply_title li:nth-child(12){
+	width: 48.36rem;
+}
+.sh_board_reply_title li:nth-child(11),.sh_board_reply_title li:nth-child(12){
+	height: 30rem;
+}
+.sh_board_reply_title li:nth-child(11){
+	line-height: 30rem;
+}
+.sh_board_reply_click{
+	float: right;
+}
+
+
+

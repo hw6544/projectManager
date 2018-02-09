@@ -1,4 +1,4 @@
-$(function() {
+
 	/* boardList 삭제 수정버튼*/
 	$(".sh_list_delete").click(function(del) {
 		alert("di");
@@ -29,4 +29,3 @@ $(function() {
 			$(".sh_choice_search").prop("checked", false);
 		}
 	})
-})

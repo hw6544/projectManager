@@ -23,12 +23,11 @@
 	margin: auto;
 	border: 0px solid black;
 	width: 57.5rem;
-	height: 27rem;
 	text-align: center;
 }
 
 .sh_member_search {
-	border-top: 1px solid #776BCE;
+	border-top: 0px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 28.125rem;
 	height: 7rem;
@@ -69,11 +68,12 @@
 }
 .sh_member_search ul input{
 	line-height:1.6rem;
+	padding-left: 0.5rem;
 }
 
 /* 첫번째 선택부분 .sh_member_date  */
 .sh_member_date {
-	border-top: 1px solid #776BCE;
+	border-top: 0px solid #776BCE;
 	border-bottom: 1px solid #776BCE;
 	width: 29.25rem;
 	height: 7rem;
@@ -187,9 +187,13 @@
 .jconfirm div.jconfirm-box {
 	width: 20rem;
 }
-/* 버튼 아이콘*/
-.fa.fa-search{
-	font-size:24px;
-	color: #776BCE;
-	border: 0px solid ;
-	 }
+
+#sh_board_shadow{
+	box-shadow: 0.1rem 0.1rem 0.4rem 0rem;
+
+	 padding: 1rem;
+    box-sizing: content-box;
+    width: 58rem;
+    border: 1px solid #776bce;
+}
+	  
